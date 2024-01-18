@@ -6,6 +6,7 @@
 
 #include "targetver.h"
 #define WIN32_LEAN_AND_MEAN             // Исключите редко используемые компоненты из заголовков Windows
+#define _USE_MATH_DEFINES
 // Файлы заголовков Windows
 #include <windows.h>
 // Файлы заголовков среды выполнения C
@@ -13,3 +14,4 @@
 #include <malloc.h>
 #include <memory.h>
 #include <tchar.h>
+#include<math.h>
